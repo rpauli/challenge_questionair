@@ -14,3 +14,4 @@ use App\Http\Controllers\QuestionController;
 */
 
 Route::resource('questions', QuestionController::class);
+Route::redirect('/', '/questions', 301);
